@@ -1,7 +1,7 @@
 vhs.sh
 ======
 
-Bash-skripti kotimaisten internet-mediasisältöjen (Areena, Ruutu) automaattiseen tallennukseen. Yhteensopiva Linux-, OS X- ja Cygwin-järjestelmien kanss. Vaatii seuraavat apuohjelmat ja vähimmäisversi: bash-3.2, php, curl, xmllint, jq, youtube-dl, rtmpdump-2.4, yle-dl-2.17, ffmpeg-1.2.10, GPAC, AtomicParsley-0.9.5.
+Bash-skripti kotimaisten internet-mediasisältöjen (Areena, Ruutu) automaattiseen tallennukseen. Yhteensopiva Linux-, OS X- ja Cygwin-järjestelmien kanss. Vaatii seuraavat apuohjelmat ja vähimmäisversiot: bash-3.2, php, curl, xmllint, jq, yt-dlp, rtmpdump-2.4 (debian: apt install rtmpdum), yle-dl-2.17, ffmpeg-1.2.10, GPAC, AtomicParsley-0.9.5 (debian: apt install atomicparsley).
 
 Tallennukset asetetaan hakemistossa ~/Movies/vhs/, jonne tulee kutakin tallennettavaa ohjelmaa kohden luoda tiedosto nimellä "Sarjan nimi.txt":
 - Tiedoston ensimmäinen rivi voi sisältää säännöllisen lausekkeen (regexp), jolla ohjelmia haetaan ja tallennetaan. TV-sarjan (tai radio-ohjelmissa albumin) nimeksi asetetaan silloinkin txt-tiedoston nimestä poimittu "Sarjan nimi".
